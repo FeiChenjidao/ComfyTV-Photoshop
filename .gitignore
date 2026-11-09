@@ -1,0 +1,6 @@
+# Release assets are uploaded to GitHub Releases, not committed to git.
+*.ccx
+*.zip
+*.sha256.txt
+*.log
+*.tmp
