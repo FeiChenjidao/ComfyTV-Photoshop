@@ -10,6 +10,8 @@ It intentionally does not contain the plugin source code. Each GitHub Release pu
 
 Photoshop installations check the latest GitHub Release from this repository. A missing release means that no public update has been published yet.
 
+The plugin reads `latest.json` as its unauthenticated update feed. The release publisher updates this file only after a release and both verification assets have been published successfully.
+
 ## Installation
 
 Download the `.ccx` asset from the latest Release and open it with Adobe Creative Cloud or Unified Plugin Installer Agent. Restart Photoshop when the release notes require it.
