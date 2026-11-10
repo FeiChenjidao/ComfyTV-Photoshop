@@ -2,14 +2,14 @@
   "schema": 1,
   "published": true,
   "repository": "FeiChenjidao/ComfyTV-Photoshop",
-  "version": "0.3.5",
-  "name": "ComfyTV Photoshop 0.3.5",
-  "notes": "首个独立安装包仓库正式版本。\n\n- 支持直接 API 与 ComfyUI 双运行模式\n- 底部提示词、参考图、Mask、预设和历史记录功能完整打包\n- 历史记录支持独立面板、批量管理与大图预览\n- 设置面板使用响应式双列布局并修复层级遮挡\n- 新增独立自动更新：下载 CCX 后校验 SHA256，再交给 Adobe 安装器\n- Photoshop 插件界面不再依赖 ComfyUI 启动才能显示\n\n系统要求：Photoshop 2025（26.0）或更新版本。安装或升级后请重启 Photoshop。",
-  "publishedAt": "2026-11-09T09:02:19.6542365Z",
+  "version": "0.3.8",
+  "name": "ComfyTV Photoshop 0.3.8",
+  "notes": "修复 CCX 安装版首次使用直接模式时，发送后可能停在“准备生成请求”的问题。\n\n- 本地缩略图生成移出生成请求关键路径，并增加解码超时。\n- 直接模式不再依赖 ComfyUI 的缩略图接口。\n- 新任务开始后禁用旧生成结果，避免误添加上一张图片。\n- 历史记录保存各自的放置范围，并在生成期间锁定删除、移动和清空操作。\n- 负面提示词仅在有实际内容时合并到直接模式提示词，不会附加 null。\n- 增加直接 API、更新器和历史记录回归测试。",
+  "publishedAt": "2026-11-10T11:49:20.8009299Z",
   "minimumPhotoshopVersion": "26.0.0",
-  "packageName": "ComfyTV-photoshop-0.3.5.ccx",
-  "packageSize": 312376,
-  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.5/ComfyTV-photoshop-0.3.5.ccx",
-  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.5/ComfyTV-photoshop-0.3.5.ccx.sha256.txt",
-  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.5"
+  "packageName": "ComfyTV-photoshop-0.3.8.ccx",
+  "packageSize": 316534,
+  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.8/ComfyTV-photoshop-0.3.8.ccx",
+  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.8/ComfyTV-photoshop-0.3.8.ccx.sha256.txt",
+  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.8"
 }
