@@ -2,14 +2,14 @@
   "schema": 1,
   "published": true,
   "repository": "FeiChenjidao/ComfyTV-Photoshop",
-  "version": "0.3.18",
-  "name": "ComfyTV Photoshop 0.3.18",
-  "notes": "- 将历史分类的新建入口移动到控制板分类列表。\n- 点击新建分类后弹出名称输入窗口，支持回车提交、取消及重名提示。\n- 移除历史记录窗口中的分类创建输入框，保留筛选和批量移动功能。",
-  "publishedAt": "2026-11-11T13:18:55.3142300Z",
+  "version": "0.3.19",
+  "name": "ComfyTV Photoshop 0.3.19",
+  "notes": "- 增高添加和编辑预设窗口，在可用面板空间内展示更多表单内容。\n- 修复切换 PSD 工程后，提示词内 @参考图、@风格和 @画布标签仍显示上一个工程缩略图的问题。\n- 刷新引用标签时保留当前提示词光标位置。",
+  "publishedAt": "2026-11-11T16:01:32.2849539Z",
   "minimumPhotoshopVersion": "26.0.0",
-  "packageName": "ComfyTV-photoshop-0.3.18.ccx",
-  "packageSize": 181633,
-  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.18/ComfyTV-photoshop-0.3.18.ccx",
-  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.18/ComfyTV-photoshop-0.3.18.ccx.sha256.txt",
-  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.18"
+  "packageName": "ComfyTV-photoshop-0.3.19.ccx",
+  "packageSize": 181813,
+  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.19/ComfyTV-photoshop-0.3.19.ccx",
+  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.19/ComfyTV-photoshop-0.3.19.ccx.sha256.txt",
+  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.19"
 }
