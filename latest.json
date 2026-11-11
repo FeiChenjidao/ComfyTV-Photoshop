@@ -2,14 +2,14 @@
   "schema": 1,
   "published": true,
   "repository": "FeiChenjidao/ComfyTV-Photoshop",
-  "version": "0.3.11",
-  "name": "ComfyTV Photoshop 0.3.11",
-  "notes": "修复插件更新安装流程：下载并校验 CCX 后自动打开 ZXP/UXP 安装确认页，由用户点击 Install 完成安装；同步更新 0.3.11 安装说明。",
-  "publishedAt": "2026-11-11T05:35:30.0597423Z",
+  "version": "0.3.17",
+  "name": "ComfyTV Photoshop 0.3.17",
+  "notes": "- 新增 PSD 工程级提示词、模型参数、预设与参考图状态。\n- 新增蒙版羽化设置并完善预设编辑交互。\n- 修复 ComfyUI 多任务队列桥接发布副本不同步的问题。\n- 包含批量任务、历史记录按需加载与直接模式体验优化。",
+  "publishedAt": "2026-11-11T12:47:50.6960915Z",
   "minimumPhotoshopVersion": "26.0.0",
-  "packageName": "ComfyTV-photoshop-0.3.11.ccx",
-  "packageSize": 319389,
-  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.11/ComfyTV-photoshop-0.3.11.ccx",
-  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.11/ComfyTV-photoshop-0.3.11.ccx.sha256.txt",
-  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.11"
+  "packageName": "ComfyTV-photoshop-0.3.17.ccx",
+  "packageSize": 181251,
+  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.17/ComfyTV-photoshop-0.3.17.ccx",
+  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.17/ComfyTV-photoshop-0.3.17.ccx.sha256.txt",
+  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.17"
 }
