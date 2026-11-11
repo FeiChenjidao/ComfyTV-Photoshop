@@ -2,14 +2,14 @@
   "schema": 1,
   "published": true,
   "repository": "FeiChenjidao/ComfyTV-Photoshop",
-  "version": "0.3.10",
-  "name": "ComfyTV Photoshop 0.3.10",
-  "notes": "修复 Seedream 图层分离结果添加回 Photoshop 时弹出“图层编组当前不可用”的问题。\n\n- 使用 Photoshop DOM 的 createLayerGroup API 建立图层组。\n- 不再调用可能弹出原生错误框的 groupLayersEvent。\n- 画板或当前文档不允许分组时，保留所有已导入的透明图层，不中断回写。",
-  "publishedAt": "2026-11-11T05:10:15.3325448Z",
+  "version": "0.3.11",
+  "name": "ComfyTV Photoshop 0.3.11",
+  "notes": "修复插件更新安装流程：下载并校验 CCX 后自动打开 ZXP/UXP 安装确认页，由用户点击 Install 完成安装；同步更新 0.3.11 安装说明。",
+  "publishedAt": "2026-11-11T05:35:30.0597423Z",
   "minimumPhotoshopVersion": "26.0.0",
-  "packageName": "ComfyTV-photoshop-0.3.10.ccx",
-  "packageSize": 319380,
-  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.10/ComfyTV-photoshop-0.3.10.ccx",
-  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.10/ComfyTV-photoshop-0.3.10.ccx.sha256.txt",
-  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.10"
+  "packageName": "ComfyTV-photoshop-0.3.11.ccx",
+  "packageSize": 319389,
+  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.11/ComfyTV-photoshop-0.3.11.ccx",
+  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.11/ComfyTV-photoshop-0.3.11.ccx.sha256.txt",
+  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.11"
 }
