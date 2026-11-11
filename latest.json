@@ -2,14 +2,14 @@
   "schema": 1,
   "published": true,
   "repository": "FeiChenjidao/ComfyTV-Photoshop",
-  "version": "0.3.8",
-  "name": "ComfyTV Photoshop 0.3.8",
-  "notes": "修复 CCX 安装版首次使用直接模式时，发送后可能停在“准备生成请求”的问题。\n\n- 本地缩略图生成移出生成请求关键路径，并增加解码超时。\n- 直接模式不再依赖 ComfyUI 的缩略图接口。\n- 新任务开始后禁用旧生成结果，避免误添加上一张图片。\n- 历史记录保存各自的放置范围，并在生成期间锁定删除、移动和清空操作。\n- 负面提示词仅在有实际内容时合并到直接模式提示词，不会附加 null。\n- 增加直接 API、更新器和历史记录回归测试。",
-  "publishedAt": "2026-11-10T11:49:20.8009299Z",
+  "version": "0.3.9",
+  "name": "ComfyTV Photoshop 0.3.9",
+  "notes": "新增 Seedream 5.0 图层分离工作流，并修复 CCX 安装版的稳定性与界面问题。\n\n- 直接模式和 ComfyUI 模式均支持 Seedream 图层分离，结果可按图层和蒙版导入 Photoshop。\n- ComfyUI 模式默认加载配套 Photoshop 工作流。\n- 默认开启随机种子，大图最长边默认值调整为 3840。\n- 直接模式不再依赖 ComfyUI 缩略图接口，生成期间锁定旧结果和历史文件操作。\n- 历史记录保存每张图片自己的捕获范围、画布尺寸和图层信息。\n- 修复首次安装后发送无响应、负面提示词空值处理和面板交互延迟。\n- 修复 CCX 安装版设置、ComfyUI、适配和历史记录 SVG 图标不显示。",
+  "publishedAt": "2026-11-11T03:49:42.0341710Z",
   "minimumPhotoshopVersion": "26.0.0",
-  "packageName": "ComfyTV-photoshop-0.3.8.ccx",
-  "packageSize": 316534,
-  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.8/ComfyTV-photoshop-0.3.8.ccx",
-  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.8/ComfyTV-photoshop-0.3.8.ccx.sha256.txt",
-  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.8"
+  "packageName": "ComfyTV-photoshop-0.3.9.ccx",
+  "packageSize": 319474,
+  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.9/ComfyTV-photoshop-0.3.9.ccx",
+  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.9/ComfyTV-photoshop-0.3.9.ccx.sha256.txt",
+  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.9"
 }
