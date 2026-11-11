@@ -2,14 +2,14 @@
   "schema": 1,
   "published": true,
   "repository": "FeiChenjidao/ComfyTV-Photoshop",
-  "version": "0.3.9",
-  "name": "ComfyTV Photoshop 0.3.9",
-  "notes": "新增 Seedream 5.0 图层分离工作流，并修复 CCX 安装版的稳定性与界面问题。\n\n- 直接模式和 ComfyUI 模式均支持 Seedream 图层分离，结果可按图层和蒙版导入 Photoshop。\n- ComfyUI 模式默认加载配套 Photoshop 工作流。\n- 默认开启随机种子，大图最长边默认值调整为 3840。\n- 直接模式不再依赖 ComfyUI 缩略图接口，生成期间锁定旧结果和历史文件操作。\n- 历史记录保存每张图片自己的捕获范围、画布尺寸和图层信息。\n- 修复首次安装后发送无响应、负面提示词空值处理和面板交互延迟。\n- 修复 CCX 安装版设置、ComfyUI、适配和历史记录 SVG 图标不显示。",
-  "publishedAt": "2026-11-11T03:49:42.0341710Z",
+  "version": "0.3.10",
+  "name": "ComfyTV Photoshop 0.3.10",
+  "notes": "修复 Seedream 图层分离结果添加回 Photoshop 时弹出“图层编组当前不可用”的问题。\n\n- 使用 Photoshop DOM 的 createLayerGroup API 建立图层组。\n- 不再调用可能弹出原生错误框的 groupLayersEvent。\n- 画板或当前文档不允许分组时，保留所有已导入的透明图层，不中断回写。",
+  "publishedAt": "2026-11-11T05:10:15.3325448Z",
   "minimumPhotoshopVersion": "26.0.0",
-  "packageName": "ComfyTV-photoshop-0.3.9.ccx",
-  "packageSize": 319474,
-  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.9/ComfyTV-photoshop-0.3.9.ccx",
-  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.9/ComfyTV-photoshop-0.3.9.ccx.sha256.txt",
-  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.9"
+  "packageName": "ComfyTV-photoshop-0.3.10.ccx",
+  "packageSize": 319380,
+  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.10/ComfyTV-photoshop-0.3.10.ccx",
+  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.10/ComfyTV-photoshop-0.3.10.ccx.sha256.txt",
+  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.10"
 }
