@@ -2,14 +2,14 @@
   "schema": 1,
   "published": true,
   "repository": "FeiChenjidao/ComfyTV-Photoshop",
-  "version": "0.3.19",
-  "name": "ComfyTV Photoshop 0.3.19",
-  "notes": "- 增高添加和编辑预设窗口，在可用面板空间内展示更多表单内容。\n- 修复切换 PSD 工程后，提示词内 @参考图、@风格和 @画布标签仍显示上一个工程缩略图的问题。\n- 刷新引用标签时保留当前提示词光标位置。",
-  "publishedAt": "2026-11-11T16:01:32.2849539Z",
+  "version": "0.3.33",
+  "name": "ComfyTV Photoshop 0.3.33",
+  "notes": "- 优化批量生成：ComfyUI 模式的画布、遮罩和参考图按批次只上传一次。\n- 直接模式下复用 Seedream 批量任务的远端图片上传。\n- 修复批量结果返回时抢占当前历史预览、添加错误结果的问题。\n- 修复历史目录迁移残留旧文件、历史运行模式恢复和输入缓存清理问题。\n- 优化 JPEG/WebP 结果转换队列，降低批量生成时的卡顿和冲突。",
+  "publishedAt": "2026-11-16T06:23:31.7377897Z",
   "minimumPhotoshopVersion": "26.0.0",
-  "packageName": "ComfyTV-photoshop-0.3.19.ccx",
-  "packageSize": 181813,
-  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.19/ComfyTV-photoshop-0.3.19.ccx",
-  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.19/ComfyTV-photoshop-0.3.19.ccx.sha256.txt",
-  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.19"
+  "packageName": "ComfyTV-photoshop-0.3.33.ccx",
+  "packageSize": 195339,
+  "packageUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.33/ComfyTV-photoshop-0.3.33.ccx",
+  "hashUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/download/v0.3.33/ComfyTV-photoshop-0.3.33.ccx.sha256.txt",
+  "releaseUrl": "https://github.com/FeiChenjidao/ComfyTV-Photoshop/releases/tag/v0.3.33"
 }
